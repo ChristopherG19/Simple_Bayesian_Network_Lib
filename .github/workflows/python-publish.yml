@@ -31,11 +31,12 @@ jobs:
         python -m pip install --upgrade pip
         pip install build
         pip install setuptools wheel twine
-    - name: Build and Publish package
-      env:
-        user: ${{ secrets.USERNAMEPYPI }}
+    - name: Build package
+      run: python -m build
+    - name: Publish package
+      uses: pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29
+      with:
+        user: ChrisG19
         password: ${{ secrets.PASSWORDPYPI }}
-      run: |
-        python setup.py sdist bdist_wheel
-        twine upload dist/*
+
         
