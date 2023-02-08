@@ -30,7 +30,7 @@ event = {
 #Dada una red bayesiana (según sea la definición de su preferencia), devuelve si esta está completamente descrita (boolean)
 print("\n¿Está totalmente descrita?: ",network.isFullyDescribed())
 #Dada una red bayesiana (según sea la definición de su preferencia), devuelve la representación compacta de la red bayesiana (string)
-network.compactForm()
+print(network.compactForm())
 #Dada una red bayesiana (según sea la definición de su preferencia), devuelve los factores de la misma (hash maps / diccionarios / key-value)
 print(network.elementsNetwork())
 #Dada una red bayesiana (según sea la definición de su preferencia), y una consulta (según sea la definición de su preferencia), devuelve el resultado del algoritmo de enumeración sobre dicha red y dicha consulta(float)
