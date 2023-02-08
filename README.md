@@ -8,3 +8,11 @@ CC3085 - Inteligencia Artificial <br>
 ## Descripcion
 
 **Librería simple que permite la creación de redes bayesianas.** <br>
+
+## Instalación
+
+pip install BayesianNetwork
+
+## Uso
+
+Ver archivo: Ejemplo.txt
