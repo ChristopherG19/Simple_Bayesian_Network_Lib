@@ -15,4 +15,4 @@ pip install BayesianNetwork
 
 ## Uso
 
-Ver archivo: Ejemplo.txt
+Ver archivo: Ejemplo.py
