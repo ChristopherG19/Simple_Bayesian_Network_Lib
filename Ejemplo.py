@@ -1,3 +1,5 @@
+from BayesianNetwork import *
+
 cloudy = Node("Cloudy", [True, False])
 sprinkler = Node("Sprinkler", [True, False], [cloudy])
 rain = Node("Rain", [True, False], [cloudy])
